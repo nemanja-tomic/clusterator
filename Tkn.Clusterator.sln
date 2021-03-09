@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BE337D8F-8A0A-49B6-A4A2-57B5D077C8F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F64D2BDC-7FD0-44A0-BC3A-B2FF21B4205B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tkn.Clusterator", "src\Tkn.Clusterator\Tkn.Clusterator.xproj", "{EFB36E20-6CB4-4E1A-948C-FCAB5457D5AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4617FB43-70EF-4AE7-A8AA-A3F32B05D3BA}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tkn.Clusterator.Tests", "test\Tkn.Clusterator.Tests\Tkn.Clusterator.Tests.xproj", "{DAD37696-E731-4761-8106-AF449E35E8D4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tkn.Clusterator.Integration", "test\Tkn.Clusterator.Integration\Tkn.Clusterator.Integration.xproj", "{AA218600-2B88-487A-824B-96F92B3BB5FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFB36E20-6CB4-4E1A-948C-FCAB5457D5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB36E20-6CB4-4E1A-948C-FCAB5457D5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB36E20-6CB4-4E1A-948C-FCAB5457D5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB36E20-6CB4-4E1A-948C-FCAB5457D5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD37696-E731-4761-8106-AF449E35E8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD37696-E731-4761-8106-AF449E35E8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD37696-E731-4761-8106-AF449E35E8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD37696-E731-4761-8106-AF449E35E8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA218600-2B88-487A-824B-96F92B3BB5FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA218600-2B88-487A-824B-96F92B3BB5FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA218600-2B88-487A-824B-96F92B3BB5FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA218600-2B88-487A-824B-96F92B3BB5FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFB36E20-6CB4-4E1A-948C-FCAB5457D5AD} = {BE337D8F-8A0A-49B6-A4A2-57B5D077C8F5}
+		{DAD37696-E731-4761-8106-AF449E35E8D4} = {4617FB43-70EF-4AE7-A8AA-A3F32B05D3BA}
+		{AA218600-2B88-487A-824B-96F92B3BB5FC} = {4617FB43-70EF-4AE7-A8AA-A3F32B05D3BA}
+	EndGlobalSection
+EndGlobal

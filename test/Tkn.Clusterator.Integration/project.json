@@ -1,0 +1,29 @@
+{
+	"version": "1.0.0-*",
+	"buildOptions": {
+		"emitEntryPoint": true,
+		"copyToOutput": {
+			"include": [ "appsettings.json" ]
+		}
+	},
+	"dependencies": {
+		"Microsoft.Extensions.Configuration": "1.0.0",
+		"Microsoft.Extensions.Configuration.Abstractions": "1.0.0",
+		"Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0",
+		"Microsoft.Extensions.Configuration.Json": "1.0.0",
+		"Microsoft.Extensions.DependencyInjection": "1.0.0",
+		"Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
+		"NETStandard.Library": "1.6.0",
+		"Microsoft.NETCore.App": {
+			"type": "platform",
+			"version": "1.0.0"
+		},
+		"Tkn.Clusterator": "1.0.0-*",
+		"Microsoft.Extensions.PlatformAbstractions": "1.0.0"
+	},
+	"frameworks": {
+		"netcoreapp1.0": {
+			"imports": [ "dnxcore50", "net451" ]
+		}
+	}
+}
